@@ -4,6 +4,8 @@
 
 ## Overview
 
+➡️  Scroll right, if on mobile
+
 |   |   |   |   |   |   |
 |:-:|:-:|:-:|:-:|:-:|:-:|
 | [![Language](assets/language.png)<br/>**Language**](#language) | [![Translator](assets/translator.png)<br/>**Translator**](#translator) | [![Speech](assets/speech.png)<br/>**Speech**](#speech) | [![Vision](assets/vision.png)<br/>**Vision**](#vision) | [![Custom Vision](assets/custom-vision.png)<br/>**Custom Vision**](#custom-vision) | [![Face](assets/face.png)<br/>**Face**](#face) | 
