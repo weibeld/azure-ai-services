@@ -39,6 +39,8 @@ A host of capabilities for understanding human language.
 | 10 | [Custom Text Classification](https://learn.microsoft.com/en-us/azure/ai-services/language-service/custom-text-classification/overview)                                   |
 | 11 | [Text Analytics for Health](https://learn.microsoft.com/en-us/azure/ai-services/language-service/text-analytics-for-health/overview)                                     |
 
+[⬆️  **Overview**](#overview)
+
 ## Translator
 
 [![Translator](assets/translator.png)][translator]
@@ -60,6 +62,8 @@ Translate between human languages.
 | 2 | [Document Translation](https://learn.microsoft.com/en-us/azure/ai-services/translator/document-translation/overview) |
 | 3 | [Custom Translator](https://learn.microsoft.com/en-us/azure/ai-services/translator/custom-translator/overview)       |
 
+[⬆️  **Overview**](#overview)
+
 ## Speech
 
 [![Speech](assets/speech.png)][speech]
@@ -73,11 +77,13 @@ Recognise and generate human speech.
 | Documentation | https://learn.microsoft.com/en-us/azure/ai-services/speech-service/ |
 | Speech Studio | https://speech.microsoft.com/                                       |
 
+[⬆️  **Overview**](#overview)
+
 ## Vision
 
 [![Vision](assets/vision.png)][vision]
 
-Recognise objects in visual data.
+Recognise pre-trained objects in visual data.
 
 ### Links
 
@@ -87,32 +93,120 @@ Recognise objects in visual data.
 
 ### Capabilities
 
+[⬆️  **Overview**](#overview)
+
 ## Custom Vision
 
-1. **Custom Vision**
-   - https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/
+[![Custom Vision](assets/custom-vision.png)][custom-vision]
+
+Train models to recognise custom objects in visual data.
+
+| Link                | URL                                                                        |
+|:--------------------|:---------------------------------------------------------------------------|
+| Documentation       | https://learn.microsoft.com/en-us/azure/ai-services/custom-vision-service/ |
+| Custom Vision Porta | https://www.customvision.ai/                                               |
+
+
+[⬆️  **Overview**](#overview)
+
+## Face
+
+[![Face](assets/face.png)][face]
+
 1. **Face**
    - https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-identity
+
+[⬆️  **Overview**](#overview)
+
+## Video Indexer
+
+[![Video Indexer](assets/video-indexer.png)][video-indexer]
+
 1. **Video Indexer**
    - https://learn.microsoft.com/en-us/azure/azure-video-indexer/
+
+[⬆️  **Overview**](#overview)
+
+## Document Intelligence
+
+[![Document Intelligence](assets/document-intelligence.png)][document-intelligence]
+
 1. **Document Intelligence**
    - https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/
-1. **OpenAI**
-   - https://learn.microsoft.com/en-us/azure/ai-services/openai/
-1. **Cognitive Search**
-   - https://learn.microsoft.com/en-us/azure/search/
-1. **Bot Service**
-   - https://learn.microsoft.com/en-us/azure/bot-service/
-1. **Metrics Advisor**
-   - https://learn.microsoft.com/en-us/azure/ai-services/metrics-advisor/
-1. **Immersive Reader**
-   - https://learn.microsoft.com/en-us/azure/ai-services/immersive-reader/
-1. **Anomaly Detector**
-   - https://learn.microsoft.com/en-us/azure/ai-services/anomaly-detector/
+
+[⬆️  **Overview**](#overview)
+
+## Content Safety
+
+[![Content Safety](assets/content-safety.png)][content-safety]
+
 1. **Content Safety**
    - https://learn.microsoft.com/en-us/azure/ai-services/content-safety/
+
+[⬆️  **Overview**](#overview)
+
+## Cognitive Search
+
+[![Cognitive Search](assets/cognitive-search.png)][cognitive-search]
+
+1. **Cognitive Search**
+   - https://learn.microsoft.com/en-us/azure/search/
+
+[⬆️  **Overview**](#overview)
+
+## Bot Service
+
+[![Bot Service](assets/bot-service.png)][bot-service]
+
+1. **Bot Service**
+   - https://learn.microsoft.com/en-us/azure/bot-service/
+
+[⬆️  **Overview**](#overview)
+
+## Metrics Advisor
+
+[![Metrics Advisor](assets/metrics-advisor.png)][metrics-advisor]
+
+1. **Metrics Advisor**
+   - https://learn.microsoft.com/en-us/azure/ai-services/metrics-advisor/
+
+[⬆️  **Overview**](#overview)
+
+## Immersive Reader
+
+[![Immersive Reader](assets/immersive-reader.png)][immersive-reader]
+
+1. **Immersive Reader**
+   - https://learn.microsoft.com/en-us/azure/ai-services/immersive-reader/
+
+[⬆️  **Overview**](#overview)
+
+## Anomaly Detector
+
+[![Anomaly Detector](assets/anomaly-detector.png)][anomaly-detector]
+
+1. **Anomaly Detector**
+   - https://learn.microsoft.com/en-us/azure/ai-services/anomaly-detector/
+
+[⬆️  **Overview**](#overview)
+
+## Personalizer
+
+[![Personalizer](assets/personalizer.png)][personalizer]
+
 1. **Personalizer**
    - https://learn.microsoft.com/en-us/azure/ai-services/personalizer/
+
+[⬆️  **Overview**](#overview)
+
+## OpenAI
+
+[![OpenAI](assets/openai.png)][openai]
+
+1. **OpenAI**
+   - https://learn.microsoft.com/en-us/azure/ai-services/openai/
+
+[⬆️  **Overview**](#overview)
 
 ## Deprecated AI Services
 
