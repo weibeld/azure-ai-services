@@ -192,9 +192,9 @@ Detect, analyse, recognise, identify, verify, and find similar human faces in im
 ### Capabilities
 
 | # | Capability                                | Details |
-|---|:------------------------------------------|-------|
+|---|:------------------------------------------|---------|
 | 1 | [Face Detection][face-face-detection]     | Detect faces and face attributes (~age~, ~gender~, ~emotion~, ~smile~, ~hair~, ~facial hair~, ~makeup~, mask, head pose, accessories, glasses, occlusion, blur, noise, exposure). |
-| 2 | [Face Recgonition][face-face-recognition] | ~Identification (identify the person a face belongs to)~, ~verification (verify whether two faces belong to the same person)~, find similar (find faces that are similar to a given face). |
+| 2 | [Face Recgonition][face-face-recognition] | ~Identification (identify the person a face belongs to)~, ~verification (verify whether two faces belong to the same person)~, finding similar faces (find faces that are similar to a given face). |
 
 **Notes:**
 
@@ -229,7 +229,6 @@ Train models to recognise custom objects in visual data.
 [⬆️  **Overview**](#overview)
 
 
-
 <!-----------------------------------------------------------------------------*
  __     ___     _              ___           _                    
  \ \   / (_) __| | ___  ___   |_ _|_ __   __| | _____  _____ _ __ 
@@ -242,8 +241,27 @@ Train models to recognise custom objects in visual data.
 
 [![Video Indexer](assets/video-indexer.png)][video-indexer]
 
-1. **Video Indexer**
-   - https://learn.microsoft.com/en-us/azure/azure-video-indexer/
+Extract time-tagged insights from videos.
+
+### Links
+
+| Link                           | URL                                                          |
+|:-------------------------------|:-------------------------------------------------------------|
+| Documentation                  | https://learn.microsoft.com/en-us/azure/azure-video-indexer/ |
+| Video Indexer Portal           | https://www.videoindexer.ai/account/                         |
+| Video Indexer Developer Portal | https://api-portal.videoindexer.ai/                          |
+
+### Capabilities
+
+| # | Capability                                                       | Details |
+|---|:-----------------------------------------------------------------|---------|
+| 1 | [Insight Extraction][video-indexer-insight-extraction]           | Extractable insights include: [face detection](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/face-detection), ~face identification~, face thumbnail extraction, [face redaction](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/face-redaction-with-api), ~celebrity identification~, adult content detection, [optical character recognition (OCR)](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/ocr), [object labelling](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/labels-identification), [shot detection](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/scenes-shots-keyframes#shot-detection), [scene detection](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/scenes-shots-keyframes#scene-detection), [keyframe detection](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/scenes-shots-keyframes#keyframe-detection), [editorial shot type detection](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/scenes-shots-keyframes#editorial-shot-type-detection), black frame detection, rolling credits detection, audio transcription, [language identification,  transcription,  and translation](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/transcription-translation-lid), closed captioning, two channel processing, noise reduction, transcript customization (CRIS), speaker enumeration, speaker statistics, textual content moderation, [emotion detection](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/emotions-detection), [keyword extraction](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/keywords), [named entities extraction](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/named-entities), [topic inference](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/topics-inference), artifacts, sentiment analysis, [people tracking](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/observed-matched-people) (preview), [matchign people with faces](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/matched-person) (preview), [clothes detection](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/detected-clothing) (preview), [featured clothes detection](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/observed-people-featured-clothing) (preview), [textual logo detection](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/detect-textual-logo) (preview), [slate detection](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/slate-detection-insight) (preview), [audio effects detection](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/audio-effects-detection-overview) (preview). |
+| 2 | [Content Model Customisation][video-indexer-model-customisation] | Creation of custom models for [language](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/customize-language-model-overview), [speech](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/customize-speech-model-overview), [~person~](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/customize-person-model-overview), and [brands](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/customize-brands-model-overview). |
+
+**Notes:**
+
+1. Face identification, face model customisation, and celebrity recognition is [limited access][limited-access].
+   - See [_Limited Access features of Azure AI Video Indexer_](https://learn.microsoft.com/en-gb/azure/azure-video-indexer/limited-access-features)
 
 [⬆️  **Overview**](#overview)
 
@@ -260,8 +278,10 @@ Train models to recognise custom objects in visual data.
 
 [![Document Intelligence](assets/document-intelligence.png)][document-intelligence]
 
-1. **Document Intelligence**
-   - https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/
+| Link                         | URL                                                                        |
+|:-----------------------------|:---------------------------------------------------------------------------|
+| Documentation                | https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/ |
+| Document Intelligence Studio | https://formrecognizer.appliedai.azure.com/                                |
 
 [⬆️  **Overview**](#overview)
 
@@ -547,6 +567,9 @@ New question answering applications must be created with the Question Answering 
 
 [face-face-detection]: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/concept-face-detection
 [face-face-recognition]: https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/concept-face-recognition
+
+[video-indexer-insight-extraction]: https://learn.microsoft.com/en-gb/azure/azure-video-indexer/video-indexer-overview#videoaudio-ai-features
+[video-indexer-model-customisation]: https://learn.microsoft.com/en-gb/azure/azure-video-indexer/customize-content-models-overview
 
 <!-- Misc -->
 [limited-access]: https://learn.microsoft.com/en-us/azure/ai-services/cognitive-services-limited-access
