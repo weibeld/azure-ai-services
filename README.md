@@ -278,10 +278,41 @@ Extract time-tagged insights from videos.
 
 [![Document Intelligence](assets/document-intelligence.png)][document-intelligence]
 
+### Links
+
 | Link                         | URL                                                                        |
 |:-----------------------------|:---------------------------------------------------------------------------|
 | Documentation                | https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/ |
 | Document Intelligence Studio | https://formrecognizer.appliedai.azure.com/                                |
+
+
+### Capabilities
+
+| # | Capability                                                                                     | Details                                                                                |
+|---|:-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| 1 | [Text Extraction][di-text-extraction]                                       | Extract printed and handwritten text.                                                  |
+| 2 | [Layout Extraction][di-layout-extraction]                                   | Extract document layout elements like headers, footers, titles, tables.                |
+| 3 | [Generic Document Extraction][di-generic-model-document-extraction]   | Extract generic key-value pairs from documents. |
+| 3 | [Prebuilt Document Extraction][di-prebuilt-model-document-extraction] | [Invoice][di-invoice], [Receipt][di-receipt], [ID Document][di-id-document], [Business Card][di-business-card], [W-2 Form][di-w2], [Health Insurance Card][di-health-insurance], [Contract][di-contract] (preview), [US Tax 1098 Form][di-us-tax-1098] (preview), [US Tax 1098-E Form][di-us-tax-1098-e] (preview), [US Tax 1098-T Form][di-us-tax-1098-t] (preview) |
+| 4 | [Custom Document Extraction][di-custom-models] |  |
+
+[di-text-extraction]: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-read
+[di-layout-extraction]: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-layout
+[di-generic-model-document-extraction]: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-general-document
+[di-prebuilt-model-document-extraction]: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview#prebuilt-models
+[di-invoice]: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-invoice
+[di-receipt]: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-receipt
+[di-id-document]: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-id-document
+[di-business-card]: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-business-card
+[di-w2]: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-w2
+[di-health-insurance]: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-insurance-card
+[di-contract]: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview#contract-model-preview
+[di-us-tax-1098]: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview#us-tax-1098-form-preview
+[di-us-tax-1098-e]: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview#us-tax-1098-e-form-preview
+[di-us-tax-1098-t]: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/overview#us-tax-1098-t-form-preview
+[di-custom-models]: https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-custom
+
+
 
 [⬆️  **Overview**](#overview)
 
